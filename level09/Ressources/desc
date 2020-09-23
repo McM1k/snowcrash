@@ -1,0 +1,8 @@
+25749xKZ8L7DkSCwJkT9dyv6f
+cat token
+./level09 token
+cat level09
+chmod 777 ~
+scp -P 4242 Ressources/main.c level09@192.168.1.99:~
+gcc main.c
+./a.out token

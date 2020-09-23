@@ -1,0 +1,8 @@
+fiumuikeil55xe9cu4dood66h
+./level08
+./level08 token
+cat level08
+nm level08
+chmod 777 ~
+mv token koten
+./level08 koten

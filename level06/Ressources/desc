@@ -1,0 +1,6 @@
+viuaaale9huek52boumoomioc
+./level06.php
+./level06
+mv level06.php caca
+scp -P 4242 Ressources/level06.php level06@192.168.1.99:~
+./level06
