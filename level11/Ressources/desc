@@ -1,0 +1,5 @@
+feulo4b72j7edeahuete3no7c
+ls
+cat level11.lua
+./level11.lua
+nc 127.0.0.1 5151
