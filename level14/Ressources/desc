@@ -1,0 +1,13 @@
+2A31L79asukciNyi8uppkEuSx
+scp -P 4242 level14@192.168.1.34:/bin/getflag .
+strings getflag
+id -u flag14
+gdb getflag
+b main
+b getuid
+jump getuid
+b *0x08048b0a
+s
+set var $eax = 3014
+s
+7QiHafiNa3HVozsaXkawuYrTstxbpABHD8CPnHJ

@@ -1,0 +1,11 @@
+g1qKMiRpXf53AWhDaU7FEkczr
+./level13
+cat level13
+scp -P level13@192.168.1.34:~/level13 .
+gdb level13 #sur les deux machines
+disas main
+b getuid
+next
+print $eax
+set variable $eax=4242
+s

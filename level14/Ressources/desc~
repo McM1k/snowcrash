@@ -1,0 +1,5 @@
+2A31L79asukciNyi8uppkEuSx
+scp -P 4242 level14@192.168.1.34:/bin/getflag .
+strings getflag
+gdb getflag
+id -u flag14
